@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>  
+    <div style="align-items: center;"> 
+        <label for="" ><h1>Time Formatted string :</h1></label>
+    <h1 id="time"> </h1> 
+    </div>  
+</body>
+
+<script>
+ 
+    function secondsToMinutes(time){
+     let data = Math.floor(time / 3600)+ ':' +Math.floor((time % 3600) / 60)+':'+Math.floor((time%3600)%60);
+     document.getElementById('time').innerHTML = data
+}     
+     secondsToMinutes(window.prompt('enter the time'))
+
+</script>
+</html>

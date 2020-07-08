@@ -1,0 +1,14 @@
+
+
+.ReactModal__Content{
+    margin-top: 8rem;
+    width: 400px;
+    height: 399px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    
+   
+   
+}

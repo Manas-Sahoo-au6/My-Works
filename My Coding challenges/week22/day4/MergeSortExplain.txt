@@ -1,0 +1,23 @@
+# Explain merge sort with [70,50,30,10,20,40,60] in 100 words
+
+step-1: Initially, define a list 'arr' by initializing with [70,50,30,10,20,40,60]
+
+step-2: initially call the merge_sort function using array, low index and high index as arguments.
+
+Step-3: as long as the low index value is less than the high index, we allow recursive calls of
+        merge-sort function.
+
+Step-4: Now measure the mid value(mid=((low+high)//2))
+
+Step-5: Now call the merge-sort function with array, low value and mid value rcursively
+
+Step-6: Call the merge-sort function with array, mid+1 value, and high value recursively
+
+Step-7: After calling the merge sort function recursively, we'll get low,mid and high values
+
+Step-8: We'll use the low,mid and high values to merge two lists by slicing method 
+        i.e. arr[low:high+1] = merge(arr[low:mid+1],arr[mid+1][high+1])
+      
+Step-9: The output array of the above list is the return value to rcursive calls
+
+Step-10: This process will continue until the entire llist gets sorted out.

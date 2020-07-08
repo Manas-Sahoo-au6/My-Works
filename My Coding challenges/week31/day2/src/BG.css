@@ -1,0 +1,52 @@
+.BG{
+    position: absolute;
+    top: -150px;
+    left:-250px;
+    width: 1500px;
+    height: 1500px;
+    z-index: -1;
+    transform: rotate(45deg);
+    background-color: rgb(253, 228, 251);
+}
+
+div.one, div.two, div.three{
+    height: 250px;
+   
+    border-radius: 150px;
+
+}
+
+div.one{
+    width:80%;
+    background:linear-gradient(to right, #00dbde, #fc00ff);
+}
+div.two{
+    width:60%;
+    background:linear-gradient(to left, #00dbde, #fc00ff);
+}
+
+div.three{
+    width:90%;
+    background:linear-gradient(to right, #00dbde, #fc00ff);
+}
+
+.circle1, .circle2, .circle3, .circle4{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: violet;
+    position: relative;
+}
+
+.circle1{
+    left: 60%;
+}
+.circle2{
+    left: 10%;
+}
+.circle3{
+    left: 45%;
+}
+.circle4{
+    left: 50%;
+}

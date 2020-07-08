@@ -1,0 +1,22 @@
+body {
+  background-image: url("https://i.pinimg.com/originals/4f/1d/b4/4f1db43d0123fcd8905fade8459480db.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Roboto Mono", monospace;
+}
+.logo_style {
+  width: 100px;
+}
+.title_style {
+  color: black;
+  font-size: large;
+  font-weight: bolder;
+  font-stretch: ultra-expanded;
+}
+.card_style {
+  background-color:rgba(26, 23, 23, 0.623);
+  color: goldenrod;
+  border-radius: 20%;
+  font-weight: bold;
+}

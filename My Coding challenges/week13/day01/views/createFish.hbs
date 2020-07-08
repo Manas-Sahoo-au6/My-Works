@@ -1,0 +1,24 @@
+<div class="container mt-3">
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <h3>Enter Fish Details</h3>
+      <hr style=" height: 12px;border: 0;box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);">
+      <br>
+      <form action="/postFish" method="POST">
+        <div class="form-group">
+          <input type="text" class="form-control" id="name" placeholder="Enter Fish name" name="name">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="type" placeholder="Enter Fish Type" name="type">
+        </div>
+        <div class="form-group">
+          <input type="color" class="form-control" id="color" placeholder="Enter Fish Color" name="color">
+        </div>
+        <div class="form-group">
+          <input type="Number" class="form-control" id="size" placeholder="Enter Fish Size" name="size">
+        </div>
+        <button type="submit" class="btn btn-success">Add Fish</button>
+      </form>
+    </div>
+  </div>
+</div>

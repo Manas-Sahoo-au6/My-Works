@@ -1,0 +1,31 @@
+.divStyle {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  padding: 2%;
+  justify-content: center;
+}
+
+.cardStyle {
+  margin: 1em;
+  background-image: linear-gradient(to right,  #f9a35c,#e2e609);
+  box-shadow:3px 10px 20px 0px black;
+  border-radius: 3%;
+  
+}
+.imgStyle{
+  width: 17.8em;
+  height: 10em;
+  box-shadow:3px 10px 20px 0px black;
+  border-radius: 50%;
+}
+ol{
+  color: black;
+  font-weight: bold;
+  box-shadow:3px 10px 20px 0px black;
+  border-radius: 5%;
+}
+a{
+  color: darkred;
+  font-weight: 700;
+}

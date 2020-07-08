@@ -1,0 +1,47 @@
+[
+    {
+        "userId": "user2",
+        "fullName": "user full name",
+        "email": "user2@mail",
+        "postIds": [],
+        "commentIds": [],
+        "likesIds": [
+            "ab05ac48-e149-41f6-ab0f-c80b43b03708"
+        ],
+        "isAdmin": false,
+        "password": "$2a$10$JXoUtxJCKxjyo4mN2vbC0uy85fVGV25ZIT2WO01yEqe3ov/rvGn5G",
+        "jwt": true
+    },
+    {
+        "userId": "user1",
+        "fullName": "user full name",
+        "email": "user1@mail",
+        "postIds": [],
+        "commentIds": [
+            "55992ebe-8aca-4734-898e-a9cb565d4130"
+        ],
+        "likesIds": [
+            "6f8cbd14-8112-4608-bc13-675ef90e2321",
+            "a9778d58-2070-4563-be80-1ed5d465431f"
+        ],
+        "isAdmin": false,
+        "password": "$2a$10$Yv/SONUZ9f35BVRxzhArper/a5C6O0gdsru8SmV1eTF0BpjyRr.Pq",
+        "jwt": true
+    },
+    {
+        "userId": "admin1",
+        "fullName": "user full name",
+        "email": "admin1@mail",
+        "postIds": [
+            "965a50cd-1ab2-4683-8ea8-2b95473bcfde",
+            "576df082-ae6e-4793-9967-34de0f4ed813"
+        ],
+        "commentIds": [
+            "9fdb4e2c-2e90-4c15-91cd-455d00b2976f"
+        ],
+        "likesIds": [],
+        "isAdmin": true,
+        "password": "$2a$10$mDoFFeJg1uc0FM5EpucIrOBE3ZcB2EZt4UINag4NQb91RgVVAzFCi",
+        "jwt": true
+    }
+]

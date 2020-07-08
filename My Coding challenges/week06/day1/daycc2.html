@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <div>
+        Content 1
+        <span>Span child 1</span>
+        <h1>I am the super man</h1>
+    </div>
+    <section>
+        <h1>I am the Batman</h1>
+    </section>
+    <span>
+        Span child 3
+        <h1>I am the Joker</h1>
+    </span>
+    
+    <div>
+        <span>
+            Span child 4
+        </span>
+        <h1>I am Ironman</h1>
+        <div class="">
+            <span>Span child 5</span>
+            <span>demos</span>
+        </div>
+    </div>
+    <script>
+        
+
+        function select() {
+            var divArr = document.getElementsByTagName('div');
+            var output = "";
+            for (var i=0;i<divArr.length;i++){
+                output += divArr[i].getElementsByTagName('span')[0].innerText+","
+            }
+            console.log(output.toUpperCase());
+        }
+        
+        select();
+        
+    
+    </script>
+</body>
+
+</html>

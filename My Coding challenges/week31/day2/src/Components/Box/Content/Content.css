@@ -1,0 +1,14 @@
+.Content{
+    width: 50%;
+    height: 400px;
+    background:linear-gradient(to right, #00dbdef0, #fc00ffe6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media all and (max-width:800px){
+    .Content{
+        display: none;
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "week13_day01",
+  "version": "1.0.0",
+  "description": "week13_day1_cc",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "morgan",
+    "nodemon",
+    "hbs"
+  ],
+  "author": "Manas Ranjan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.0",
+    "mongoose": "^5.9.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2"
+  }
+}

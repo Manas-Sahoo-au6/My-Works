@@ -1,0 +1,20 @@
+[
+    {
+        "likeId": "6f8cbd14-8112-4608-bc13-675ef90e2321",
+        "liked": true,
+        "forPostId": "576df082-ae6e-4793-9967-34de0f4ed813",
+        "likedBy": "user1"
+    },
+    {
+        "likeId": "a9778d58-2070-4563-be80-1ed5d465431f",
+        "liked": true,
+        "forPostId": "576df082-ae6e-4793-9967-34de0f4ed813",
+        "likedBy": "user1"
+    },
+    {
+        "likeId": "ab05ac48-e149-41f6-ab0f-c80b43b03708",
+        "liked": true,
+        "forCommentId": "55992ebe-8aca-4734-898e-a9cb565d4130",
+        "likedBy": "user2"
+    }
+]

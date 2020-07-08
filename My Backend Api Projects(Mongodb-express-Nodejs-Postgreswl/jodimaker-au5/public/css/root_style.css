@@ -1,0 +1,166 @@
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+  padding: 0rem!important;
+}
+
+h4 {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: #202020;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #8e8e8e;
+  font-size: 13px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #d79922;
+  font-size: 13px;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  max-height: 100px;
+}
+
+.logo {
+  height: 90px;
+  width: 100px;
+}
+
+.banner {
+  background: url("/img/Lovevivah-banner.jpg") no-repeat center;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.btn-wine {
+  color: #fff;
+  background-color: #78244c;
+  border-color: #78244c;
+}
+.hamburger{
+  color: #fff;
+  background-color: #78244c;
+  border-color: #78244c;
+}
+
+.btn-wine:hover {
+  background-color: #d79922;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-color: #d79922;
+}
+
+.btn-infor {
+  color: #fff;
+  background-color: #d79922;
+  border-color: #d79922;
+}
+
+.btn-infor:hover,.btn-infor:focus {
+  background-color: #78244c;
+  border-color: #78244c;
+  color: white;
+  font-size: 1rem;
+  box-shadow: 0 0.5em 0.7em -0.4em rgb(81, 81, 81);
+  -webkit-transform: translateY(-0.25em);
+  transform: translateY(-0.25em);
+  transition: 0.3s ease-in-out;
+}
+
+.bg-wine {
+  color: #fff;
+  background-color: #78244c;
+}
+
+.card-img-top {
+  height: 280px;
+}
+
+html {
+  height: 100%;
+}
+
+.modal-open {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#myModal {
+  top: -100px;
+}
+
+#register {
+  top: -20px;
+}
+
+.toast1 {
+  box-shadow: none;
+  border: none;
+  position: absolute;
+  bottom: 100px;
+  right: 50px;
+  z-index: 1050;
+  color: #78244c;
+}
+.toast:last-of-type {
+  box-shadow: none;
+  background-color: rgb(74, 72, 72);
+  border: none;
+  position: absolute;
+  bottom: 100px;
+  left: 60px;
+  z-index: 1050;
+  color: #f7ecf1;
+}
+
+.stat-box {
+  text-align: center;
+}
+
+.stat-box p {
+  margin: 0px;
+  margin-bottom: 7px;
+}
+
+
+.card{
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.card:focus,.card:hover{
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+*{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banner p{
+  margin-bottom: 0;
+}
+.navbar-toggler-icon{
+  filter: invert();
+} 

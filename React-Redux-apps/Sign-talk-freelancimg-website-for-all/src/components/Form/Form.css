@@ -1,0 +1,18 @@
+.Form{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffffffcc;
+}
+.Wrapper{
+    width: 60%;
+}
+
+
+@media all and (max-width:800px){
+    .Form{
+        width: 100%;
+    }
+}

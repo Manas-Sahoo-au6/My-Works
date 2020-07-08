@@ -1,0 +1,18 @@
+[
+    {
+        "commentId": "55992ebe-8aca-4734-898e-a9cb565d4130",
+        "comment": "comment1",
+        "commentedBy": "user1",
+        "postId": "576df082-ae6e-4793-9967-34de0f4ed813",
+        "likesIds": [
+            "ab05ac48-e149-41f6-ab0f-c80b43b03708"
+        ]
+    },
+    {
+        "commentId": "9fdb4e2c-2e90-4c15-91cd-455d00b2976f",
+        "comment": "comment1",
+        "commentedBy": "admin1",
+        "postId": "576df082-ae6e-4793-9967-34de0f4ed813",
+        "likesIds": []
+    }
+]

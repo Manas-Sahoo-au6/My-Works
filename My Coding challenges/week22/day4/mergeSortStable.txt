@@ -1,0 +1,8 @@
+Is merge sort stable, inplace and find its time complexity?
+
+Merge sort is stable sorting method.
+
+Merge sort's most common implementation does not sort in place.
+Therefore, the memory size of the input must be allocated for the sorted output to be stored in.
+
+The worst case time-complexity for merge sort is in the order of O(nlogn)

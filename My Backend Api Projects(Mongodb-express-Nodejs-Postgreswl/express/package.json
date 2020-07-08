@@ -1,0 +1,23 @@
+{
+  "name": "woodpecker",
+  "version": "1.0.0",
+  "description": "its an express js practice by manas ",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon server.js"
+  },
+  "keywords": [
+    "manas",
+    "repostery"
+  ],
+  "author": "manas",
+  "license": "ISC"
+}

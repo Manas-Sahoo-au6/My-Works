@@ -1,0 +1,139 @@
+<header>
+  <nav
+    class="navbar fixed-top navbar-dark navbar-expand-md bg-sucess text-white ">
+
+    <a class="text-white navbar-brand" href="/">
+      <i class="fab fa-pagelines"></i> My stores
+    </a>
+    <button class="navbar-toggler" type="button"
+      data-toggle="collapse"
+      data-target="#navbarCollapse"
+      aria-controls="navbarCollapse"
+      aria-expanded="false"
+      aria-level="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+
+    <div class="collapse navbar"
+      id="navbarCollapse">
+      <ul class="navbar-nav mr-auto menu">
+        <li class="nav-item active">
+          <a href="#" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a href="#fruit"
+            class="nav-link">Fruits</a>
+        </li>
+        <li class="nav-item active">
+          <a href="#juice"
+            class="nav-link">Juice</a>
+        </li>
+        <li class="nav-item active">
+          <a href="#salad"
+            class="nav-link">Salads</a>
+        </li>
+      </ul>
+      <form class="form-inline mt-md-0 ">
+        <a href="/cart"
+          class="text-white nav-link">
+          <i id="cart_n"
+            class="text-warning fas fa-shopping-cart">
+          </i>Shopping
+          Cart<i style="color: yellow;"
+            id="cart_n"></i>
+        </a>
+        <a href="/admin"
+          class="nav-link disabled text-white">
+          <i class="fa fa-user"></i>
+          Administrator
+        </a>
+
+      </form>
+    </div>
+
+  </nav>
+
+</header>
+
+<main role="main">
+  <div class="carousel slide" data-ride="carousel"
+    id="myCarousel">
+    <ol class="carousal-indicators">
+      <li style="z-index:102;"
+        data-target="#myCarousel"
+        data-slide-to="0" class="active"></li>
+      <li style="z-index:102;"
+        data-target="#myCarousel"
+        data-slide-to="1"></li>
+      <li style="z-index:102;"
+        data-target="#myCarousel"
+        data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="imgFilter first-slide"
+          src="img/carousel/slide1.png"
+          alt="First Slide">
+        <div class="carousel-caption">
+          <h1>Everything is here</h1>
+          <p>here the all the items sell having
+            20% off </p>
+          <p><a href="#" role="button"
+              class="btn btn-primary btn-lg">Products</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item ">
+        <img class="imgFilter second-slide"
+          src="img/carousel/slide2.jpeg"
+          alt="Second Slide">
+        <div class="carousel-caption text-left">
+          <h1>Everything is here</h1>
+          <p>here the all the items sell having
+            20%
+            off </p>
+          <p><a href="#" role="button"
+              class="btn btn-primary btn-lg">Products</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item ">
+        <img class="imgFilter third-slide"
+          src="img/carousel/slide3.jpg"
+          alt="Third Slide">
+        <div class="carousel-caption text-right">
+          <h1>Everything is here</h1>
+          <p>here the all the items sell having
+            20%
+            off </p>
+          <p><a href="#" role="button"
+              class="btn btn-primary btn-lg">Products</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <a style="z-index: 101;"
+      class="carousel-control-prev" role="button"
+      data-slide-to="prev" href="#myCarousel">
+      <span class="carousel-control-prev-icon"
+        aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a style="z-index: 101;"
+      class="carousel-control-next" role="button"
+      data-slide-to="next" href="#myCarousel">
+      <span class="carousel-control-next-icon"
+        aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+
+  </div>
+</main>
+<script
+  src="/E-commerec(MEN)/public/js/main.js"></script>

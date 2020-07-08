@@ -1,0 +1,34 @@
+.main {
+
+    display: flex;
+
+}
+
+.main h1 {
+    align-items: center;
+}
+
+.register {
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    margin-top: 5rem;
+    box-shadow: 8px 8px 6px -6px rgba(0, 0, 0, 0.732);
+}
+
+.register input {
+    display: flex;
+    align-items: center;
+}
+
+.register button {
+    display: flex;
+    align-items: center;
+}
+
+.register h1 {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+

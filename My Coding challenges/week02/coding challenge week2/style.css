@@ -1,0 +1,78 @@
+body {
+     background-image:url(https://media.giphy.com/media/3o7qDNfxtNRtLVv8qs/giphy.gif);
+
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+h1{
+    font-size: 50px;
+    color: white;
+    margin-top: 20px;
+
+}
+h3{
+    color:white;
+    margin-bottom: 10px;
+}
+.form-control{
+    background: rgba(0,0,0,0,4);
+    border:0px;
+    border-radius: 0px;
+    margin-top: 10px;
+    height: 45px;
+    font-size: 23px;
+    color: white;
+
+}
+
+.btn-danger{
+    margin-top: 20px;
+    width: 448px;
+    font-size: 23px;
+    background: #a5e0a8;
+    border: 0px;
+    border-radius: 0px;
+}
+.btn-info{
+    width: 130px;
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 100px;
+    margin-bottom: 25px;
+
+
+}
+.col-md-5{
+background: transparent;
+box-shadow: -1px 1px 50px 10px rgb(235, 175, 222);
+margin-top: 60px;
+border-radius: 10px 0px 20px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+{
+  "name": "star_wars",
+  "version": "1.0.0",
+  "description": "week15 day03 assignment question 1",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon -e js,hbs"
+  },
+  "keywords": [
+    "express",
+    "hbs",
+    "node-fetch",
+    "nodemon",
+    "morgan"
+  ],
+  "author": "Manas ranjan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2"
+  }
+}

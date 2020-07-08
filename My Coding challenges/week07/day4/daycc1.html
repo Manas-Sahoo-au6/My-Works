@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+
+        .circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: radial-gradient(circle farthest-corner at 40px 40px, white,blue);
+
+        }
+    </style>
+
+</head>
+
+<body style="background-image: url(https://www.itl.cat/pngfile/big/5-50799_night-road-wallpaper-city-street-at-night.jpg); border-image-repeat: stretch;">
+    <button type="button" id="left">Left</button>
+    <button type="button" id="right">Right</button>
+    <div class="circle" style="position: relative;margin-top: 20px;"></div>
+
+</body>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+    $("#right").click(function () {
+        $("div").animate({ left: "+=100px", now: "+=100" }, {step: function (now) {
+                $("div").css("transform", "rotate(" + now + "deg)")
+
+            
+        }});
+    }) 
+    $("#left").click(function () {
+        $("div").animate({ left: "-=100px", now: "-=100" }, {step: function (now) {
+                $("div").css("transform", "rotate(" + now + "deg)")
+
+            
+        }});
+    }) 
+</script>
+
+</html>

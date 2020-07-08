@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="css/style.css">
+<div class="container">
+  <div class="row d-flex">
+    {{#each stars}}
+    <div class="col-3 ">
+      <div class="card h-100 card_style" style="width: 15rem;">
+        <div class="card-body">
+          <h5 class="card-title">{{name}}</h5>
+          <p class="card-text">{{model}}</p>
+          <p class="card-text">{{cost_in_credits}}</p>
+          <p class="card-text">{{length}}</p>
+          <p class="card-text">{{max_atmosphering_speed}}</p>
+          <p class="card-text">{{crew}}</p>
+          <p class="card-text">{{passengers}}</p>
+          <p class="card-text">{{cargo_capacity}}</p>
+          <p class="card-text">{{hyperdrive_rating}}</p>
+          <p class="card-text">{{MGLT}}</p>
+          <p class="card-text">{{starship_class}}</p>
+          
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</div>

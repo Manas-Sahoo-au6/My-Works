@@ -1,0 +1,6 @@
+NAME :  manas 
+UID :  5700-8822-9742
+DOB :  30/06/1994
+GENDER :  male
+ADDRESS :  jkas
+...................................

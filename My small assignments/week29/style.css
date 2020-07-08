@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.top{
+     margin-left: 5rem;
+    margin-right: 5rem;
+    
+
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.flex-nav{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Playfair Display', serif;
+
+
+}
+
+.item-1{
+    float: left;
+    align-items: flex-end;
+
+}
+
+
+.HERO{
+    height: 400px;
+    width: 1200px;
+    background-color: #343a40;
+    margin-top: 2rem;
+    color: ivory;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    
+    
+}
+
+div .items1 h1{
+    font-size: 20;
+    font-size: 50px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-family: 'Sriracha', cursive;
+
+}
+div .items2{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 25px;
+    margin-bottom: 2rem;
+    font-family: 'Sofia';font-size: 22px;
+
+    
+   
+}
+div .items3 a{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 20px;
+    color: white; 
+
+}
+.row{
+    font-family: 'Sofia';font-size: 22px;
+    
+
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-main-bar{
+    font-family: 'Kreon', serif;
+    
+    
+
+
+}
+div .blog-main-bar h1{
+  font-size: 45px;
+  font-family: 'Playfair Display', serif;
+
+}
+.blog-side-bar {
+
+    font-family: 'Playfair Display', serif;
+    
+    margin-left: 1rem;
+}
+.blog-side-bar .about{
+    margin-left: 1rem;
+}
+div .about{
+    width: 400px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.123);
+    font-size: 17px;
+}
+
+.archieve{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    font-family: 'Playfair Display', serif;
+    margin-left: 2rem;
+}
+
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(24, 24, 23, 0.15);
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+    color: black;
+    height: 30px;
+    width: 50px;
+    
+
+}
+
+
+ .btn1{
+    margin-right: 2rem;
+
+}

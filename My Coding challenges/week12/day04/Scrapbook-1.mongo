@@ -1,0 +1,218 @@
+db.faculty.insertMany([
+  {
+    name: "Krish",
+    age: 35,
+    gender: "M",
+    exp: 10,
+    subjects: ["DS", "C", "OS"],
+    type: "Full Time",
+    qualification: "M.Tech"
+  },
+  {
+    name: "Manoj",
+    age: 38,
+    gender: "M",
+    exp: 12,
+    subjects: ["JAVA", "DBMS"],
+    type: "Full Time",
+    qualification: "Ph.D"
+  },
+  {
+    name: "Anush",
+    age: 32,
+    gender: "F",
+    exp: 8,
+    subjects: ["C", "CPP"],
+    type: "Part Time",
+    qualification: "M.Tech"
+  },
+  {
+    name: "Suresh",
+    age: 40,
+    gender: "M",
+    exp: 9,
+    subjects: ["JAVA", "DBMS", "NETWORKING"],
+    type: "Full Time",
+    qualification: "Ph.D"
+  },
+  {
+    name: "Rajesh",
+    age: 35,
+    gender: "M",
+    exp: 7,
+    subjects: ["DS", "C", "OS"],
+    type: "Full Time",
+    qualification: "M.Tech"
+  },
+  {
+    name: "Mani",
+    age: 38,
+    gender: "F",
+    exp: 10,
+    subjects: ["JAVA", "DBMS", "OS"],
+    type: "Part Time",
+    qualification: "Ph.D"
+  },
+  {
+    name: "Sivani",
+    age: 32,
+    gender: "F",
+    exp: 8,
+    subjects: ["C", "CPP", "MATHS"],
+    type: "Part Time",
+    qualification: "M.Tech"
+  },
+  {
+    name: "Nagesh",
+    age: 39,
+    gender: "M",
+    exp: 11,
+    subjects: ["JAVA", "DBMS", "NETWORKING"],
+    type: "Full Time",
+    qualification: "Ph.D"
+  },
+  {
+    name: "Nagesh",
+    age: 35,
+    gender: "M",
+    exp: 9,
+    subjects: ["JAVA", ".Net", "NETWORKING"],
+    type: "Full Time",
+    qualification: "Ph.D"
+  },
+  {
+    name: "Latha",
+    age: 40,
+    gender: "F",
+    exp: 13,
+    subjects: ["MATHS"],
+    type: "Full Time",
+    qualification: "Ph.D"
+  }
+]);
+
+//q1. get all the details of all faculty
+
+db.faculty.find({"name":"sivani"});
+
+//getting all the count of faculty memebers
+
+db.faculty.count();
+
+//get all faculty whose qualifiaction is phd
+
+db.faculty.find({ qualification: "Ph.D" });
+
+//find  the faculty memebers whose experience is between 8 to 12 yeras (using and operator )
+
+db.faculty.aggregate([
+  {
+    $project: {
+      result: { $and: [{ $gt: ["$exp", 8] }, { $lt: ["$exp", 12] }] }
+    }
+  }
+]);
+
+//by using find methode qno 4 answer >8 and <12 exp
+db.faculty.find({
+  exp: { $gte: 8, $lte: 12 }
+});
+
+//qno 5 -: Get all the faculty members who teach “MATHS” or “NETWORKING”.
+
+db.faculty.find({
+  $or: [{ subjects: "MATHS" }, { subjects: "NETWORKING" }]
+});
+
+// //6. Get all the faculty members who teach “MATHS” and whose age is more than 30 years and qualification must be “Ph.D”.
+
+db.faculty.find({
+  $and: [{ qualification: "Ph.D" }, { age: { $gt: 30 } }, { subjects: "MATHS" }]
+});
+
+//7. Get all the faculty members who are working part-time or who teach “JAVA”.
+
+//     name: "Rajesh",
+//     age: 35,
+//     gender: "M",
+//     exp: 7,
+//     subjects: ["DS", "C", "OS"],
+//     type: "Full Time",
+//     qualification: "M.Tech"
+//   }
+
+db.faculty.find({
+  $or: [{ subjects: "JAVA" }, { type: "Part Time" }]
+});
+
+//8. Add the following new faculty members:
+
+db.faculty.insert({
+  name: "Suresh Babu",
+  age: 55,
+  gender: "M",
+  exp: 25,
+  subjects: ["MATHS", "DE"],
+  type: "Full Time",
+  qualification: "Ph.D"
+});
+//9. Update the data of all faculty members by incrementing their age and exp by one year.
+db.faculty.updateMany({ age: 32 }, { $set: { age: 45 } });
+
+
+//10. Update the faculty “Sivani” with the following data: update qualification to “Ph.D” and type to “Full Time”.
+// db.faculty.findOneAndUpdate({ name: "sivani",
+//     type: "Part Time",
+//     qualification: "M.Tech"
+//     },{ 
+//       name: "Sivani",
+//    type: "Full Time",
+//     qualification: "Ph.D"});
+
+
+db.faculty.updateMany({name:"sivani"},{$set:{qualification:"Ph.D",type:"Full Time"}})
+
+
+
+
+
+//11. Update all faculty members who are teaching “MATHS” such that they should now also teach “PSK”.
+
+db.faculty.updateMany({subjects:"MATHS"},{$set:{compulsury_Subject:"PSK"}})
+
+db.faculty.find()
+
+
+//12. Delete all faculty members whose age is more than 55 years.
+
+db.faculty.deleteMany({"age": {
+  $gt:55
+}})
+
+
+
+
+
+
+//13. Get only the name and qualification of all faculty members. 
+
+db.faculty.find({name:"0" , "qualification": "1"})
+
+
+
+
+//14. Get the name, qualification and exp of all faculty members and display the same in ascending order of exp.
+
+db.faculty.find().sort( { exp: 1 } )
+
+
+//15. Sort the faculty details by their age (descending order) and get the details of the first five faculty members only. 
+
+db.faculty.find().sort( { age: -1 } ).aggregate(
+    { $limit : 5 }
+);
+
+
+db.faculty.aggregate(
+    { $limit : 5 }
+);

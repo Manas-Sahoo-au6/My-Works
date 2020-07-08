@@ -1,0 +1,13 @@
+db.products.insertMany([
+    {name: "m-shoe-01",category: "WoWomen",price: 3000,image: "/img/women/01.jpg",timesSold: 0,reviews: []},
+    {name: "m-shoe-02",category: "Women",price: 2890,image: "/img/women/02.jpg",timesSold: 0,reviews: []},
+    {name: "m-shoe-03",category: "Women",price: 1200,image: "/img/women/03.jpg",timesSold: 0,reviews: []},
+    {name: "m-shoe-04",category: "Women",price: 999,image: "/img/women/01.jpg",timesSold: 0,reviews: []},
+    {name: "m-shoe-05",category: "Women",price: 2000,image: "/img/women/02.jpg",timesSold: 0,reviews: []},
+    {name: "m-shoe-06",category: "Women",price: 700,image: "/img/woWomen/04.jpg",timesSold: 0,reviews: []},
+    {name: "m-shoe-07",category: "Women",price: 4599,image: "/img/women/05.jpg",timesSold: 0,reviews: []},
+    {name: "m-shoe-08",category: "Women",price: 2200,image: "/img/women/02.jpg",timesSold: 0,reviews: []},
+    {name: "m-shoe-09",category: "Women",price: 800,image: "/img/women/01.jpg",timesSold: 0,reviews: []},
+    {name: "m-shoe-10",category: "Women",price: 990,image: "/img/women/03.jpg",timesSold: 0,reviews: []}
+    ]);
+

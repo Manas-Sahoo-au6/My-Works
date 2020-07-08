@@ -1,0 +1,78 @@
+body {
+  font-family: "Lato", sans-serif;
+   background-image: url(https://thumbs.dreamstime.com/z/social-media-icon-pattern-background-wallpaper-white-icons-vector-ai-file-version-illustration-contains-116684686.jpg);
+    background-repeat: no-repeat;
+    border-image-repeat:stretch;
+}
+
+
+
+.sidenav {
+  height: 492px;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 80px;
+  left: 25px;
+  background-color: goldenrod;
+  overflow-x: hidden;
+  padding-top: 20px;
+   
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+table, td, th {
+  border: 2px solid ;
+    background-color: goldenrod;
+    color: black;
+    font-family:serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 85%;
+   margin-left: 200px;
+    margin-top: 4px;
+    
+}
+
+td {
+  height: 50px;
+  vertical-align: bottom;
+}
+#head{
+    position: sticky;
+    background-color: black;
+    top: 10px;
+    left: 500px;
+    text-align: center;
+    color: aliceblue;
+}
+#addtag{
+    background-color: darkgoldenrod;
+    text-align: center;
+    color: black;
+    height: 50px;
+    margin-left: auto;
+}

@@ -1,0 +1,55 @@
+.Review {
+    margin: auto;
+    width: 200px;
+    height: 350px; 
+    background-color: white;
+    box-shadow: 8px 8px 6px -6px rgba(0, 0, 0, 0.732);
+    border-radius: 50%;
+    font-family: 'Cairo', sans-serif;
+
+    
+    
+
+}
+.Review h1{
+    font-size: medium;
+    margin-left: 5rem;
+    padding-top: 20px;
+    color: green;
+}
+.card h4 {
+    font-size: small;
+    margin-left: 3rem;
+    padding-top: 20px;
+    color: blueviolet;
+}
+.card p{
+    font-size: small;
+    margin-left: 2rem;
+    padding-top: 20px;
+    font-weight: bold;
+    color: green
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+    
+}
+.card img{
+    height: 80px;
+    width: 50%;
+    margin-left: 3rem;
+    border-radius: 80%;
+}
+.card strong{
+    margin-left: 6rem;
+    color: red;
+}
+
+.item{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}

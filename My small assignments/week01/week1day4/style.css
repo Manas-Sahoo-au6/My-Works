@@ -1,0 +1,28 @@
+body {
+    background-image:url(w-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#name {
+    color: white; font-size: 50px; border: 2px; border-color: darkgreen; font-variant-position: super; font-style: italic;text-align: center;
+}
+#about{
+    font-size: 40px;
+    color: aliceblue;
+    text-decoration-line: underline;
+    text-align: center;
+}
+.profile{
+    text-align: center; color: ghostwhite;font-size: 30px;
+}
+.cv{
+    font-size: 30px; color: antiquewhite;
+    text-align:left;
+}
+.list{ color: beige;
+    font-size: 40px
+   
+    
+}

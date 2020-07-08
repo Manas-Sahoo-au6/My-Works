@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  height:800px;
+  overflow: hidden;
+  background-image:url(./images/bg-top.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+/* #root{
+  height:800px;
+  overflow: hidden;
+} */
+
+

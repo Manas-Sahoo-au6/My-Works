@@ -1,0 +1,99 @@
+div {
+  animation: rotate-all 2s 0 infinite linear alternate;
+}
+
+.div1 {
+  width: 80px;
+  height: 80px;
+  background-color: #3206e2;
+  position: relative;
+  margin: auto;
+  animation: square-to-circle 2.5s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate-reverse;
+
+}
+
+.div2 {
+    width: 80px;
+  height: 80px;
+  background-color: #3206e2;
+  position: relative;
+  margin: auto;
+  animation: square-to-circle2 2.5s .42s infinite cubic-bezier(1,.015,.295,1.225) alternate-reverse;
+}
+
+#one {
+  top: 150px;
+}
+ 
+#two {
+  top: 150px;
+  right: 80px;
+}
+
+#three {
+  top: 150px;
+}
+
+#four {
+  bottom: 10px;
+  left: 80px;
+}
+
+@keyframes square-to-circle {
+  0%  {
+    border-radius:0 0 0 0;
+    background:rgb(245, 15, 15);
+    transform:rotate(45deg);
+  }
+  25%  {
+    border-radius:50% 0 0 0;
+    background:rgb(245, 15, 15);
+    transform:rotate(135deg);
+  }
+  50%  {
+    border-radius:50% 50% 0 0;
+    background:rgb(245, 15, 15);
+    transform:rotate(180deg);
+  }
+  75%  { 
+    border-radius:50% 50% 50% 0;
+    background:rgb(245, 15, 15);
+    transform:rotate(315deg);
+  }
+  100% {  
+    border-radius:50%;
+    background:rgb(245, 15, 15);
+    transform:rotate(404deg);
+  }
+}
+
+@keyframes square-to-circle2 {
+  0%  {
+    border-radius:0 0 0 0;
+    background:rgb(245, 15, 15);
+    transform:rotate(45deg);
+  }
+  25%  {
+    border-radius:0 0 50% 0;
+    background:rgb(245, 15, 15);
+    transform:rotate(135deg);
+  }
+  50%  {
+    border-radius:0 0 50% 50%;
+    background:rgb(233, 9, 9);
+    transform:rotate(180deg);
+  }
+  75%  { 
+    border-radius:50% 0 50% 50%;
+    background:rgb(230, 10, 10);
+    transform:rotate(315deg);
+  }
+  100% {  
+    border-radius:50%;
+    background:rgb(236, 14, 14);
+    transform:rotate(404deg);
+  }
+}
+
+
+

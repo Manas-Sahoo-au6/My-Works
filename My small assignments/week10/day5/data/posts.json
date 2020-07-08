@@ -1,0 +1,26 @@
+[
+    {
+        "postId": "576df082-ae6e-4793-9967-34de0f4ed813",
+        "postedBy": "admin1",
+        "title": "post1",
+        "postBody": "postBody1",
+        "createdAt": "Tue Feb 11 2020 17:26:34 GMT+0530 (India Standard Time)",
+        "commentIds": [
+            "55992ebe-8aca-4734-898e-a9cb565d4130",
+            "9fdb4e2c-2e90-4c15-91cd-455d00b2976f"
+        ],
+        "likesIds": [
+            "6f8cbd14-8112-4608-bc13-675ef90e2321",
+            "a9778d58-2070-4563-be80-1ed5d465431f"
+        ]
+    },
+    {
+        "postId": "965a50cd-1ab2-4683-8ea8-2b95473bcfde",
+        "postedBy": "admin1",
+        "title": "post1",
+        "postBody": "postBody1",
+        "createdAt": "Tue Feb 11 2020 17:26:31 GMT+0530 (India Standard Time)",
+        "commentIds": [],
+        "likesIds": []
+    }
+]

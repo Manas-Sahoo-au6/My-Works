@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div class="parent">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </body>
+    <script>
+        var div = document.getElementsByClassName('parent')[0];
+        var spans = div.getElementsByTagName('span');
+        //console.log(spans)
+        var colors = ["#FF3333","#FFC300","#39FF33","#33E9FF","#3336FF"];
+        var names = nameIn();
+        function nameIn() {
+            var arr = [];
+            for (var i=0;i<5;i++){
+                var name = prompt("Please enter a name");
+                arr.push(name);
+            }
+            return arr;
+        }
+
+        function updateDOM(names,colors,spans) {
+            if(names.length<5 || colors.length<5){
+                alert("Process cant be done");
+            } else if (spans.length<5){
+                alert("Length is insufficient");
+            } else {
+                for (var i=0;i<spans.length;i++){
+                spans[i].innerText = names[i];
+                spans[i].style.color = colors[i];
+                }
+            }
+            
+        }
+        console.log(updateDOM(names,colors,spans))
+        ;
+        
+    </script>
+</html>

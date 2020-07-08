@@ -1,0 +1,24 @@
+* {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #3F0F3F;
+    height: 8vh;
+    width: 100%;
+    box-shadow: #EBB424;
+    box-shadow: 0px 8px 6px -6px rgba(0, 0, 0, 0.732);
+}
+
+.navbar a {
+    text-decoration: black  ;
+    justify-content: baseline;
+    font-size: x-large;
+    color: #EBB424;
+    font-family: 'Piedra', cursive;
+}

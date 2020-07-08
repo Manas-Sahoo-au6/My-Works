@@ -1,0 +1,14 @@
+nav{
+    position: sticky;
+}
+
+ *{ 
+                  margin: 0px 0px;
+                  font-family: 'Acme', sans-serif;
+  } 
+                  
+ .row img{ 
+      width: 50%;
+      height: 50%;
+    }
+          
